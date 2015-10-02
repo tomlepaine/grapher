@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Results</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+
+<body>
+<h1>Results</h1>
+<ul>
+    {% for content in contents %}
+    <li><a href="#{{ loop.index0 }}">{{ content }}</a></li>
+    {% endfor %}
+</ul>
+{% for section in sections %}
+{{ section }}
+{% endfor %}
+</body>
+</html>
