@@ -1,6 +1,12 @@
 # grapher
 Python utility for monitoring graphs of many jobs running in sequence.
 
+Dependencies:
+- bottle
+- jinja2
+- numpy
+- yaml
+
 ## Usage
 To run just type:
 ```shell
